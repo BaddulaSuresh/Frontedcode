@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 16px;
+            background-color: aqua;
+        }
+        <!--media queries-->
+        @media(min-width:600px){
+            body{
+       font-size: 20px;
+       background-color: rgb(0, 255, 98);
+        }
+    }
+    @media(min-width:900px){
+            body{
+       font-size: 20px;
+       background-color: rgb(255, 0, 195);
+        }
+    }
+    @media(orientation:portrait){
+            body{
+       font-size: 20px;
+       background-color: rgb(255, 0, 0);
+        }
+    }
+    <!--pseudo class-->
+    button{
+        color: black;
+    }
+    button:hover{
+        color: blue;
+    }
+    button.focus{
+        color: rgb(42, 165, 79);
+    }
+    button.visited{
+        color: aqua;
+    }
+    li{
+        font-size: 16px;
+        color: black;
+    }
+    li:nth-child(even){
+        color:green;
+    }
+    li:nth-child(3){
+        color:brown;
+    }
+    <!--psudo elements-->
+    h1{
+        font-size: 20px;
+        color: aqua;
+    }
+    h1::before{
+        content: "* ";
+        color: blue;
+    }
+    h1::after{
+        content: "* ";
+        color: rgb(42, 165, 149);
+    }
+    </style>
+</head>
+<body>
+    <h>responsive design with media queries</h>
+    <p>
+        hello guys to good afternoon,resize your window see the background-color and text size
+    </p>
+    <button type="submit">visit my site</button>
+    <u1>
+        <li>suresh 1</li>
+        <li>suresh 2</li>
+        <li>suresh 3</li>
+        <li>suresh 4</li>
+        <li>suresh 5</li>
+        <li>suresh 6</li>
+    </u1>
+    <h1>my name naidu</h1>
+</body>
+</html>
