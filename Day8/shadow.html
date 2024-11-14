@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* simple shadow */
+        .box{
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(152, 77, 161);
+            border: ipx solid red;
+        }
+        .simple-shadow{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+           
+        }
+        .inset-shadow{
+            box-shadow:inset 5px 5px 10px rgb(77, 161, 127);
+        }
+        .gradient-box{
+            width: 100px;
+            height: 200px;
+            background: linear-gradient(45deg,blue,green,orange ,purple);
+        }
+        .suresh{
+            width:200px;
+            height:100px;
+            background: radial-gradient(square,red);
+        }
+        .naidu{
+            width: 100px;
+            height:200px;
+           background: conic-gradient(red,green);
+        }
+    </style>
+</head>
+<body>
+    <div class="box simple-shadow">Simple shadow</div>
+    <div class="gradient-box"></div>
+    <div class="suresh"></div>
+    <div class="naidu"></div>
+</body>
+</html>
